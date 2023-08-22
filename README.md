@@ -1,4 +1,7 @@
 # I’m Something of a Painter Myself CycleGAN-Monet
+
+## NOTE: Jupyter Notebook is not loading correctly on the Github, please download it and open it with Jupyter Notebook via Anaconda or Visual Studio Code, I have tested both of them and its working. Maybe even Google Collab will work, but github is showing an issue even after trying many things.
+
 This project covers the Kaggle intoduction to GAN models, especially CycleGAN. The CycleGAN is an extension of the GAN architecture that involves the simultaneous training of two generator models and two discriminator models, its mainly used for style transfer in this project.
 
 One generator takes images from the first domain as input and outputs images for the second domain, and the other generator takes images from the second domain as input and generates images for the first domain. Discriminator models are then used to determine how plausible the generated images are and update the generator models accordingly. In essence CycleGANs are extended architecture over the simple GAN.
